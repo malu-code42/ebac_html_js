@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+#container{
+    margin: 50px auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+form {
+    margin-top: 100px;
+}
+
+h1, input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(172, 104, 235);
+}
+
+.sucesso {
+    display: block;
+    background-color: rgb(172, 104, 235);
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.falha {
+    display: block;
+    background-color: rgb(228, 98, 98);
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.iguais {
+    display: block;
+    background-color: rgb(238, 151, 37);
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+}
