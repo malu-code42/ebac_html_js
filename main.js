@@ -22,18 +22,18 @@ form.addEventListener('submit', function(e) {
     if (numB > numA) {
         containerMensagemSucesso.innerHTML = mensagemSucesso;
         containerMensagemSucesso.classList.add('sucesso');
-        // containerMensagemFalha.classList.remove('falha');
-        // containerMensagemFalha.classList.remove('iguais');
+        containerMensagemFalha.classList.remove('falha');
+        containerMensagemFalha.classList.remove('iguais');
     } else if (numB < numA) {
         containerMensagemFalha.innerHTML = mensagemFalha;
         containerMensagemSucesso.classList.add('falha');
-        // containerMensagemFalha.classList.remove('sucesso');
-        // containerMensagemFalha.classList.remove('iguais');
+        containerMensagemFalha.classList.remove('sucesso');
+        containerMensagemFalha.classList.remove('iguais');
     } else {
         containerMensagemIguais.innerHTML = mensagemIguais;
         containerMensagemSucesso.classList.add('iguais');
-        // containerMensagemFalha.classList.remove('sucesso');
-        // containerMensagemFalha.classList.remove('falha');
+        containerMensagemFalha.classList.remove('sucesso');
+        containerMensagemFalha.classList.remove('falha');
     }
 
 });
